@@ -1,0 +1,25 @@
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: url("../../assets/img/ms-homepage-mobile.jpeg") center / cover;
+  opacity: 1;
+}
+
+@media (min-width: 768px) {
+  #hero {
+    background: url("../../assets/img/ms-homepage-desktop.jpeg") center / cover;
+  }
+}
+
+#navcol-1 {
+  font-size: 14.5px;
+  font-family: Montserrat, sans-serif;
+  color: #222;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #222;
+}
+
